@@ -1,0 +1,35 @@
+/* Center and style the h1 element */
+    h1 {
+      text-align: center;
+      font-family: Arial, sans-serif;
+      color: white;
+      text-shadow: 2px 2px 4px #000000;
+    }
+
+    /* Style the p element with a border and rounded corners */
+    p {
+      border: 2px solid gray;
+      border-radius: 4px;
+      padding: 20px;
+      text-align: justify;
+      font-size: 18px;
+    }
+
+
+    /* Style the button with a gradient background and hover effect */
+    button {
+      background: linear-gradient(to bottom, #4c4c4c, #1e1e1e);
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+    button:hover {
+      background: linear-gradient(to bottom, #1e1e1e, #4c4c4c);
+    }
