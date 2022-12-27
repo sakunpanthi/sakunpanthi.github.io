@@ -1,38 +1,54 @@
 <!DOCTYPE html>
 <html>
-<head> 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Main Page</title>
+<head>
   <style>
+    /* Set the body background color to a light blue */
     body {
-      /* Define a style for the body element */
-        background-color: lightblue;
-        font-family: Arial, sans-serif;
-      }
-    /* Define a style for the text segment */
-      .p1 {
-          font-family: Georgia, serif;
-          font-size: 18px;
-          line-height: 1.5;
-          color: #000000;
-          margin: 20px 0;
-          text-align: justify;
-}
+      background-color: lightgreen;
+    }
 
-    </style>
+    /* Center and style the h1 element */
+    h1 {
+      text-align: center;
+      font-family: Arial, sans-serif;
+      color: white;
+      text-shadow: 2px 2px 4px #000000;
+    }
+
+    /* Style the p element with a border and rounded corners */
+    p {
+      border: 2px solid gray;
+      border-radius: 4px;
+      padding: 20px;
+      text-align: justify;
+      font-size: 18px;
+    }
+
+
+    /* Style the button with a gradient background and hover effect */
+    button {
+      background: linear-gradient(to bottom, #4c4c4c, #1e1e1e);
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+    button:hover {
+      background: linear-gradient(to bottom, #1e1e1e, #4c4c4c);
+    }
+  </style>
 </head>
 <body>
-  <div class = "p1">
-  <h1>Books:</h1>
-  <h2>Fiction:</h2>
-  <a href = 'https://docs.google.com/document/d/1MrdLZ8S7qZHemPBxMhvE3ODUaBFmck7ph_UgOmrtpNE/export?format=pdf'>1. Tale about a space center in Nepal</a>
-  <h2>Non Fiction:</h2>
-  <a href = 'https://docs.google.com/document/d/1a22OBtHaHWQiH3Qr5Q01LFmkQt5751NdYuvpruky53E/export?format=pdf'>1. Contemporary revolution</a>
+  <h1>Welcome to My website</h1>
+  <p>Hello fellow visitor. My name is Sakun panthi. I'm a potential CEO of twitter inc. I have lots of experience reading and wrting. I've written several books. Check them out at my web library by clicking the button below.</p>
   <br>
-  <hr>
-  <h1>Essays:</h1>
-  <a href = 'https://docs.google.com/document/d/1oc-CmoU81xFfhtG1MFTFAJ_dyoooSCh3mwLXpnWVrOc/export?format=pdf'>1. Essay on the human mind</a>
-  <hr>
-  </div>
+  <button onclick="location.href='weblibrarypage.html'">
+Go to my web library!</button>
 </body>
 </html>
