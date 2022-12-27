@@ -5,6 +5,13 @@
       color: white;
       text-shadow: 2px 2px 4px #000000;
     }
+    
+    h2 {
+      text-align: center;
+      font-family: Arial, sans-serif;
+      color: white;
+      text-shadow: 2px 2px 4px #000000;
+    } 
 
     /* Style the p element with a border and rounded corners */
     p {
