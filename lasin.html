@@ -18,6 +18,19 @@
         rel="stylesheet" type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+    <script>
+       (function (w, d) {
+            w.addEventListener('scroll', function () {
+            if (w.innerHeight + w.scrollY > 4000) {
+            document.getElementById('back').style.visibility = 'visible';
+            } else {
+            document.getElementById('back').style.visibility = 'hidden';
+            }
+            });
+        })(window, document); 
+    
+    </script>
+    
 </head>
 
 <body>
@@ -49,7 +62,7 @@
                         <h2 class="subheading">The revolutionary ideas of a young boy looking to change the direction of his country</h2>
                         <span class="meta">
                             Posted by
-                            <a href="#!">Sakun Panthi</a>
+                            <a href="#!" id="content">Sakun Panthi</a>
                             on January 5, 2023
                         </span>
                     </div>
@@ -87,6 +100,7 @@
                             <li><a class="dropdown-item" href="#c16">Chapter-16</a></li>
                         </ul>
                     </div>
+                    <a class="btn btn-primary" href="#content" role="button" style="background-color:darkslategray; border-radius: 50%; position: fixed; bottom: 40px; right: 40px;" id="back">Top</a>
                     <h2 class="section-heading"><a id="c1">Chapter 1</a></h2>
                     <p>&nbsp; &nbsp; &nbsp;Lasin was born in the Khotang region of Nepal. He was an avid dreamer. He got
                         himself into a good school where his father used to teach and started his primary education
