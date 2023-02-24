@@ -1,0 +1,32 @@
+<html>
+<body>
+<?php
+// get user input for N
+$n = intval(readline("Enter the value of N: "));
+
+// initialize variables for the first two numbers in the sequence
+$prev1 = 0;
+$prev2 = 1;
+
+// print the first two numbers in the sequence
+echo $prev1 . " " . $prev2 . " ";
+
+// loop through the remaining numbers in the sequence
+$i = 2;
+do {
+  // calculate the next number in the sequence
+  $next = $prev1 + $prev2;
+  
+  // print the next number in the sequence
+  echo $next . " ";
+  
+  // update the variables for the previous two numbers in the sequence
+  $prev1 = $prev2;
+  $prev2 = $next;
+  
+  // increment the loop counter
+  $i++;
+} while ($i < $n);
+?>
+</body>
+</html>
